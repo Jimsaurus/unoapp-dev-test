@@ -337,7 +337,7 @@ header {
 
 .hero-wrapper {
   background: url(../assets/bg_image_1.jpg);
-  background-color: grey;
+  background-color: rgba(57, 57, 57, 0.4);
   background-blend-mode: darken;
   height: 700px;
   background-position: center;
@@ -557,14 +557,6 @@ h2 {
 h3 {
   font-size: 4rem;
   margin: 0 0 5px 0; }
-
-h5 {
-  margin: 10px 0 15px 0;
-  font-size: 2rem; }
-
-h6 {
-  color: #fff;
-  margin-bottom: 10px; }
 
 .underline {
   width: 150px;
