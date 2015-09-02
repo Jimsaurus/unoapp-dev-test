@@ -1,0 +1,28 @@
+// ===================================================
+// PORTFOLIO STYLES
+// ===================================================
+.projects{
+	@include section();
+	@include main-section();
+}
+
+.projects-wrapper{
+	@include flexrow();
+	justify-content: center;
+	width: 100%;
+
+}
+.projects-item{
+	background: url(../assets/bg_image_2.jpg);
+	@include flexcol();
+	@include box-shadow();
+	width: 32%;
+	height: 300px;
+	margin: 0.5%;
+	h3{
+		font-size: 2.5rem;
+		margin-bottom: 40px;
+		color: $white;
+		text-align: center;
+	}
+}

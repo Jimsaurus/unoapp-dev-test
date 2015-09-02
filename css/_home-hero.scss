@@ -1,0 +1,36 @@
+header{
+	height: auto;
+	width: 100%;
+}
+
+// ===================================================
+// HERO STYLES
+// ===================================================
+.hero-wrapper{
+	background: url(../assets/bg_image_1.jpg);
+	background-color: grey;
+	background-blend-mode: darken;
+	height: 700px;
+	@include bg();
+	@include flexcol();
+	justify-content: center;
+	align-items: center;
+
+}
+.hero-text{
+	margin: 0 auto;
+	text-align: center;
+	color: $white;
+	max-width: 90%;
+}
+.button{
+		padding:15px 30px 15px 30px;
+		@include transition();
+		font-size: 2rem;
+		background: $blue;
+		color: $white;
+		&:hover{
+			background: $white;
+			color: $blue;
+		}
+}

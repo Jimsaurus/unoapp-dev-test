@@ -1,0 +1,54 @@
+
+@media all and (max-width: 805px){
+	.nav-links{
+		display: none;
+	}
+	.nav-mobile button{
+		display: block;
+	}
+	.nav-wrapper{
+		justify-content: space-between;
+	}
+	.nav-mobile{
+		width: 100px;
+	}
+	.nav-brand{
+		width: 100px;
+		img{
+			width: 100%;
+		}
+	}
+	
+	.projects-wrapper{
+		@include flexcol();
+	}
+	.projects-item{
+		width: 100%;
+		margin: 3%;
+	}
+}// 805px
+
+
+@media all and (max-width: 450px){
+	html{
+		font-size: 8px !important;
+	}
+	.hero-text .tagline{
+		font-size: 2.5rem;
+	}
+	.footer{
+		font-size: 0.8rem;
+	}
+}// 450 px
+
+
+
+
+
+
+
+
+
+
+
+

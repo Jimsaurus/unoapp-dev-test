@@ -1,0 +1,29 @@
+// ===================================================
+// FOOTER STYLES
+// ===================================================
+
+.footer{
+	background: $blue;
+	color: $white;
+	@include flexcol();
+	width: 100%;
+}
+.footer-wrapper{
+	ul{
+		margin: 0 auto;
+		padding: 20px 0;
+		width: 100%;
+	}
+	li{
+		display: inline-block;
+		
+		a{
+			color: $white;
+			border-right: 1px solid $white;
+			padding: 2px 15px;
+		}
+		a.footer-last{
+			border-right: 0;
+		}
+	}
+}//footer-wrapper

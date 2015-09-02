@@ -1,0 +1,57 @@
+// ===================================================
+// VARIABLES & MIXINS
+//====================================================
+$black: #393939;   
+$blue: #003C8C;
+$white: #fff;
+$grey: #eee;
+$bg-grey: #F7F7F7;
+$text-grey: #838383;
+$max-width: 1170px;
+
+@mixin section(){
+	max-width: $max-width;
+	margin: 0 auto;
+}
+@mixin main-section(){
+	padding: 50px 1% 50px 1%;
+}
+
+@mixin transition(){
+	transition: all .6s ease;
+}
+
+@mixin flexrow(){
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+@mixin flexcol(){
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+@mixin bg(){
+	background-position: center;
+	background-size: cover;
+}
+@mixin box-shadow(){
+	box-shadow: 0px 2px 10px rgba(0,0,0,.3),0px 0px 1px rgba(0,0,0,.1),inset 0px 1px 0px rgba(255,255,255,.25),inset 0px -1px 0px rgba(0,0,0,.15);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

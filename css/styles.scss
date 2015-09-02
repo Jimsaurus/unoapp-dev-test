@@ -1,0 +1,93 @@
+// ===================================================
+// IMPORT SETUP STYLES
+//====================================================
+@import "setup";
+@import "bourbon/bourbon"; 
+@import "neat/neat"; 
+@import "mobile-menu";
+@import "mixins";
+@import "nav";
+@import "home-hero";
+@import "home-projects";
+@import "footer";
+@import "responsive";
+
+// ===================================================
+// GENERAL STYLES
+// ===================================================
+html{
+	font-size: 10px;
+}
+a{
+	text-decoration: none;
+	color: $black;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	letter-spacing: 4px;
+}
+body{
+	overflow-x: hidden;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.6rem;
+	color: $black;
+}
+main{
+	margin:0 auto;
+}
+p{
+	line-height: 1.8;
+	letter-spacing: 1px;
+}
+.tagline{
+	font-size: 2rem;
+	line-height: 1.4;
+	margin: 10px 0 50px 0;
+}
+h2{
+	font-size: 5rem;
+	margin: 5px;
+}
+h3{
+	font-size: 4rem;
+	margin: 0 0 5px 0;
+}
+h5{
+	margin: 10px 0 15px 0;
+	font-size: 2rem
+}
+h6{
+	color: $white;
+	margin-bottom: 10px;
+}
+.underline{
+	width:150px;
+	border-bottom: 2px solid $blue;
+	margin-bottom: 35px;
+}
+.hideme{
+	opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
